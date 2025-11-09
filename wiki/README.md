@@ -1,3 +1,9 @@
+#### ./json/groups.json 複製するときに参照 (更新履歴: 2025/11/09🔄)
+
+```markdown
+{"id":1,"date":"2025年11月3日 : 13時47分33秒 : 月曜日","mask":"Not Yet Another Software design of Computer","input":"metaphor","created_at":"2025-11-03T04:47:33.227Z","updated_at":"2025-11-03T04:47:33.227Z"}
+```
+
 #### railsジェネレーター
 
 ```ruby
