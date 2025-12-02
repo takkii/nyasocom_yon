@@ -10,12 +10,43 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_11_03_043840) do
+ActiveRecord::Schema[8.1].define(version: 2025_12_02_223453) do
   create_table "groups", charset: "utf8mb3", collation: "utf8mb3_uca1400_ai_ci", force: :cascade do |t|
+    t.string "authors"
+    t.string "copyright"
     t.datetime "created_at", null: false
-    t.string "date"
-    t.string "input"
-    t.string "mask"
+    t.string "dtcl"
+    t.string "dtcl_full"
+    t.string "gist"
+    t.string "gist_mix"
+    t.string "gist_op"
+    t.string "gist_p"
+    t.string "gist_sh"
+    t.string "github"
+    t.string "github_me"
+    t.string "github_op"
+    t.string "github_pf"
+    t.string "github_us"
+    t.string "githubp_bd"
+    t.string "githubp_old"
+    t.string "githubp_pf"
+    t.string "githubp_sy"
+    t.string "githubpages"
+    t.string "ides"
+    t.string "jetbrain"
+    t.string "name"
+    t.string "neovim"
+    t.string "plugins"
+    t.string "reason"
+    t.string "settings"
+    t.string "spa"
+    t.string "spa_cm"
+    t.string "spa_dev"
+    t.string "spa_full"
+    t.string "spa_js"
+    t.string "title"
+    t.string "under"
     t.datetime "updated_at", null: false
+    t.string "youtube"
   end
 end

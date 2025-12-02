@@ -1,16 +1,12 @@
-#### ./json/groups.json 複製するときに参照 (更新履歴: 2025/11/09🔄)
-
-```markdown
-{"id":1,"date":"2025年11月3日 : 13時47分33秒 : 月曜日","mask":"Not Yet Another Software design of Computer","input":"metaphor","created_at":"2025-11-03T04:47:33.227Z","updated_at":"2025-11-03T04:47:33.227Z"}
-```
-
 #### railsジェネレーター
 
 ```ruby
 # JSONの値を設定するカラムを入れ子にする。
-rails g scaffold Group date:string mask:string input:string
-rails d scaffold Group date:string mask:string input:string
+rails g scaffold Group name:string title:string dtcl:string dtcl_full:string neovim:string jetbrain:string reason:string settings:string plugins:string ides:string copyright:string authors:string youtube:string under:string spa:string spa_full:string spa_dev:string spa_js:string spa_cm:string github:string github_pf:string github_op:string github_us:string github_me:string githubpages:string githubp_pf:string githubp_bd:string githubp_sy:string githubp_old:string gist:string gist_p:string gist_op:string gist_sh:string gist_mix:string
+
+rails d scaffold Group name:string title:string dtcl:string dtcl_full:string neovim:string jetbrain:string reason:string settings:string plugins:string ides:string copyright:string authors:string youtube:string under:string spa:string spa_full:string spa_dev:string spa_js:string spa_cm:string github:string github_pf:string github_op:string github_us:string github_me:string githubpages:string githubp_pf:string githubp_bd:string githubp_sy:string githubp_old:string gist:string gist_p:string gist_op:string gist_sh:string gist_mix:string
 ```
+
 
 #### railsコマンド操作
 
