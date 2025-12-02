@@ -48,6 +48,6 @@ class GroupsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def group_params
-      params.expect(group: [ :date, :mask, :input ])
+      params.expect(group: [ :name, :title, :dtcl, :dtcl_full, :neovim, :jetbrain, :reason, :settings, :plugins, :ides, :copyright, :authors, :youtube, :under, :spa, :spa_full, :spa_dev, :spa_js, :spa_cm, :github, :github_pf, :github_op, :github_us, :github_me, :githubpages, :githubp_pf, :githubp_bd, :githubp_sy, :githubp_old, :gist, :gist_p, :gist_op, :gist_sh, :gist_mix ])
     end
 end
