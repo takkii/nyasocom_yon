@@ -51,9 +51,6 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem 'rubocop-rails-omakase', require: false
 
-  # nyasocom_sun_pg_win tools
-  gem 'grouse'
-
   # Use,Windows ENV | other os.
   if Gem.win_platform?
     gem 'sheltered-girl', '4.0.4.5'
